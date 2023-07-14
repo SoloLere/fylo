@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <header class="container header">
+      <div class="unused header__logo-container">
+        <img class="header__logo" src="images/logo.svg" alt="logo" />
+      </div>
+      <nav>
+        <ul class="header__flex">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article class="files">
+        <div class="container flex reverse">
+          <div>
+            <img src="images/illustration-1.svg" alt="accessible" />
+          </div>
+
+          <div class="file__text spacer">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form class="form__flex form__flex--file" action="/" method="post">
+              <input class="input input__file" type="text" />
+              <button class="btn btn__file" type="reset">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <article class="productivity">
+        <div class="wave">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="container flex reverse">
+          <div>
+            <img src="images/illustration-2.svg" alt="accessible" />
+          </div>
+
+          <div class="spacer">
+            <h1>Stay productive, wherever you are</h1>
+            <div>
+              <p>
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p class="margin__top--small">
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+            </div>
+            <div class="cta">
+              <a class="cta__link" href="#0"> See how Fylo works </a>
+              <img class="cta__img" src="images/icon-arrow.svg" alt="pointer" />
+            </div>
+            <div class="testimonial">
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="testimonial__flex">
+                <img
+                  class="testimonial__img"
+                  src="images/avatar-testimonial.jpg"
+                  alt="Kyle Burton"
+                />
+                <div class="testimonial__details">
+                  <p class="testimonial__name">Kyle Burton</p>
+                  <p class="testimonial__title">Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="access">
+        <div class="container flex">
+          <div class="spacer">
+            <h1>Get early access today</h1>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <form class="form__flex form__flex--access" action="/" method="post">
+            <input class="input input__access" type="text" />
+            <button class="btn btn__access" type="reset">
+              Get early access today
+            </button>
+          </form>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__flex">
+        <div>
+          <img class="footer__logo" src="images/logo-white.svg" alt="logo" />
+          <div class="contact">
+            <i class="fa-solid fa-phone-volume icon"></i>
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="contact">
+            <i class="fa-regular fa-envelope icon"></i>
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+
+        <nav class="footer__flex footer__flex--nav">
+          <ul class="footer__nav">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <ul class="footer__nav">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+
+        <div class="socials">
+          <i class="icon fa-brands fa-facebook-f"></i>
+          <i class="icon fa-brands fa-twitter"></i>
+          <i class="icon fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
