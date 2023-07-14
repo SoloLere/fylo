@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/SoloLere/Front-end-mentor-challenges/tree/main/fylo-landing-page-with-two-column-layout-master)
-- Live Site URL: [live site URL](https://sololere.github.io/Front-end-mentor-challenges/)
+- Solution URL: [solution URL](https://github.com/SoloLere/fylo.git)
+- Live Site URL: [live site URL](https://sololere.github.io/fylo/)
 
 ## My process
 
