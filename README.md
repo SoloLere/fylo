@@ -66,6 +66,9 @@ Users should be able to:
 }
 ```
 
+- Using form element on inputs helps me trigger built-in form validation
+- Always add labels in form element
+
 ### Useful resources
 
 - [Resource 1](https://www.shapedivider.app/) - This helped me design custom wavy svg background. I really liked this tool and will use it going forward.

@@ -2,6 +2,8 @@
     VARIABLES
   ================================================
 */
+/* OPACITY */
+/* BREAKPOINT */
 /*================================================
 BASE STYLES
 ================================================
@@ -39,6 +41,9 @@ h2 {
   font-weight: 700;
   text-align: var(--alignment); }
 
+/*  UTILITY COMPONENTS
+================================================
+*/
 .container {
   width: calc(min(110rem, 85vw));
   margin-inline: auto; }
@@ -160,6 +165,10 @@ article {
   color: #070439;
   position: relative; }
 
+.productivity .container {
+  padding-top: 2rem; }
+
+/*  BACKGROUND  CURVED SECTION*/
 .wave {
   position: absolute;
   top: 0;
@@ -196,6 +205,10 @@ article {
     text-decoration: none; }
   .cta__img {
     width: 2rem; }
+  .cta:hover {
+    opacity: 0.8; }
+  .cta:active {
+    border-color: transparent; }
 
 .testimonial {
   width: calc(min(90%, 32rem));
@@ -233,6 +246,9 @@ article {
 .access {
   background-color: #585989;
   color: #fff; }
+
+.access .flex {
+  align-items: flex-start; }
 
 /*================================================
 FOOTER STYLES

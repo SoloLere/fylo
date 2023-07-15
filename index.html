@@ -32,7 +32,7 @@
       <div class="unused header__logo-container">
         <img class="header__logo" src="images/logo.svg" alt="logo" />
       </div>
-      <nav>
+      <nav aria-label="main navigation">
         <ul class="header__flex">
           <li><a href="#">Features</a></li>
           <li><a href="#">Team</a></li>
@@ -55,9 +55,18 @@
               Access them wherever you need, share and collaborate with friends,
               family, and co-workers.
             </p>
-            <form class="form__flex form__flex--file" action="/" method="post">
-              <input class="input input__file" type="text" />
-              <button class="btn btn__file" type="reset">Get Started</button>
+            <form
+              class=".form form__flex form__flex--file"
+              action="/"
+              method="post"
+            >
+              <label for="email"></label>
+              <input
+                class="input input__file"
+                type="email"
+                placeholder="Enter your mail"
+              />
+              <button class="btn btn__file" type="button">Get Started</button>
             </form>
           </div>
         </div>
@@ -131,9 +140,18 @@
               would be happy to help you.
             </p>
           </div>
-          <form class="form__flex form__flex--access" action="/" method="post">
-            <input class="input input__access" type="text" />
-            <button class="btn btn__access" type="reset">
+          <form
+            class=".form form__flex form__flex--access"
+            action="/"
+            method="post"
+          >
+            <label for="email"></label>
+            <input
+              class="input input__access"
+              type="email"
+              placeholder="Enter your mail"
+            />
+            <button class="btn btn__access" type="button">
               Get early access today
             </button>
           </form>
@@ -155,7 +173,10 @@
           </div>
         </div>
 
-        <nav class="footer__flex footer__flex--nav">
+        <nav
+          class="footer__flex footer__flex--nav"
+          aria-label="secondary navigation"
+        >
           <ul class="footer__nav">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Jobs</a></li>
